@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main () {
-    timeExperiment () ;
+/*int main () {
+    timeExperiment();
 
     return 0;
-}
+}*/
