@@ -16,8 +16,10 @@ add_executable(sorts_project main.c
         libs/complexity_of_sorting/sorts/shell_sort.h
         libs/complexity_of_sorting/sorts/comb_sort.c
         libs/complexity_of_sorting/sorts/comb_sort.h
+        libs/complexity_of_sorting/sorts/radix_sort.c
+        libs/complexity_of_sorting/sorts/radix_sort.h
         libs/complexity_of_sorting/functions/sort_functions.c
         libs/complexity_of_sorting/functions/sort_functions.h
         libs/complexity_of_sorting/functions/generators.c
-        libs/complexity_of_sorting/functions/generators.h libs/complexity_of_sorting/sorts/radix_sort.c libs/complexity_of_sorting/sorts/radix_sort.h)
+        libs/complexity_of_sorting/functions/generators.h)
 

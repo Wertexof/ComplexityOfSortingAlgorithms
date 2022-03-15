@@ -18,7 +18,7 @@ void radixSort(int *a, size_t size) {
             values[curByte]++;
         }
 
-        getSum(values, UCHAR_MAX + 1);
+        getPrefixSums(values, UCHAR_MAX + 1);
 
         for (size_t i = 0; i < size; i++) {
             int curByte;

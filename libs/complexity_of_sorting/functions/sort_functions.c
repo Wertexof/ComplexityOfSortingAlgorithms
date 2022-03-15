@@ -1,7 +1,4 @@
 #include "sort_functions.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 #define ARRAY_SIZE(a) sizeof(a) / sizeof(a[0])
 
@@ -54,7 +51,8 @@ void timeExperiment() {
             {selectionSort, "selectionSort"},
             {combSort, "combSort"},
             {insertionSort, "insertionSort"},
-            {shellSort, "shellSort"}
+            {shellSort, "shellSort"},
+            {radixSort, "radixSort"}
     };
 
     const unsigned FUNCS_N = ARRAY_SIZE(sortFuncs);

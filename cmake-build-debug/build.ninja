@@ -102,6 +102,12 @@ build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/comb_sort.c.
   OBJECT_DIR = CMakeFiles\sorts_project.dir
   OBJECT_FILE_DIR = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\sorts
 
+build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c.obj: C_COMPILER__sorts_project_Debug C$:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/radix_sort.c || cmake_object_order_depends_target_sorts_project
+  DEP_FILE = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\sorts\radix_sort.c.obj.d
+  FLAGS = -g -std=gnu11
+  OBJECT_DIR = CMakeFiles\sorts_project.dir
+  OBJECT_FILE_DIR = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\sorts
+
 build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj: C_COMPILER__sorts_project_Debug C$:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/functions/sort_functions.c || cmake_object_order_depends_target_sorts_project
   DEP_FILE = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\functions\sort_functions.c.obj.d
   FLAGS = -g -std=gnu11
@@ -114,12 +120,6 @@ build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/generato
   OBJECT_DIR = CMakeFiles\sorts_project.dir
   OBJECT_FILE_DIR = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\functions
 
-build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c.obj: C_COMPILER__sorts_project_Debug C$:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/radix_sort.c || cmake_object_order_depends_target_sorts_project
-  DEP_FILE = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\sorts\radix_sort.c.obj.d
-  FLAGS = -g -std=gnu11
-  OBJECT_DIR = CMakeFiles\sorts_project.dir
-  OBJECT_FILE_DIR = CMakeFiles\sorts_project.dir\libs\complexity_of_sorting\sorts
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target sorts_project
@@ -128,7 +128,7 @@ build CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c
 #############################################
 # Link the executable sorts_project.exe
 
-build sorts_project.exe: C_EXECUTABLE_LINKER__sorts_project_Debug CMakeFiles/sorts_project.dir/main.c.obj CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/bubble_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/selection_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/insertion_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/shell_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/comb_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/generators.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c.obj
+build sorts_project.exe: C_EXECUTABLE_LINKER__sorts_project_Debug CMakeFiles/sorts_project.dir/main.c.obj CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/bubble_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/selection_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/insertion_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/shell_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/comb_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/generators.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\sorts_project.dir

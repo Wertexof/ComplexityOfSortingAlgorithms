@@ -90,6 +90,8 @@ int linearSearchMin(const int *a, const size_t n);
 
 long long getSum(const int *a, const size_t n);
 
+void getPrefixSums(int *a, size_t size);
+
 bool isUniqueArray(const int *a, const size_t n);
 
 float getDistance(int *a, int n);

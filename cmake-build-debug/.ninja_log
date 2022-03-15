@@ -1,11 +1,17 @@
 # ninja log v5
-1	136	6690393494649559	build.ninja	9b6aee1470ada706
-13	114	6689929121579081	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj	f946c307ad33f6cb
-1	106	6689929121459092	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/selection_sort.c.obj	f93cbaa3038613c1
-7	111	6689929121529157	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/insertion_sort.c.obj	5247c1dea78a3fe6
-3	65	6689929448644823	CMakeFiles/sorts_project.dir/main.c.obj	6e6196b6dba151b
-0	169	6689846056546639	CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj	3e83ed8f879aa635
-2	82	6689846370297355	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/bubble_sort.c.obj	32583db36a6ae5e5
+1	136	6690874343742179	build.ninja	9b6aee1470ada706
+31	233	6690794689988037	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj	f946c307ad33f6cb
+3	248	6690794689988037	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/selection_sort.c.obj	f93cbaa3038613c1
+20	233	6690794689988037	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/insertion_sort.c.obj	5247c1dea78a3fe6
+3	89	6690796754878623	CMakeFiles/sorts_project.dir/main.c.obj	6e6196b6dba151b
+25	235	6690794690115100	CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj	3e83ed8f879aa635
+14	234	6690794689988037	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/bubble_sort.c.obj	32583db36a6ae5e5
 20	104	6689929121459092	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/generators.c.obj	38515a772028a19
-10	123	6689929121679126	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/shell_sort.c.obj	1ce428c083ebac4d
-16	141	6689929121859130	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/comb_sort.c.obj	fc882f960b6d1761
+36	228	6690794689988037	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/shell_sort.c.obj	1ce428c083ebac4d
+40	261	6690794690046831	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/comb_sort.c.obj	fc882f960b6d1761
+47	234	6690794690046831	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/sorts/radix_sort.c.obj	a0d1d97492534979
+2	100	6690878117492420	CMakeFiles/sorts_project.dir/main.c.obj	6e6196b6dba151b
+9	115	6690878117682055	CMakeFiles/sorts_project.dir/libs/complexity_of_sorting/functions/sort_functions.c.obj	f946c307ad33f6cb
+2	122	6690879109447713	CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj	3e83ed8f879aa635
+2	119	6690880445874922	CMakeFiles/sorts_project.dir/libs/algorithms/array/array.c.obj	3e83ed8f879aa635
+119	240	6690880447065953	sorts_project.exe	4f62b1a17d6d47a9

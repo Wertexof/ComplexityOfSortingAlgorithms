@@ -3,6 +3,9 @@
 
 #include <stddef.h>
 #include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/bubble_sort.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/algorithms/array/array.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/functions/sort_functions.h"
@@ -12,7 +15,7 @@
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/selection_sort.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/shell_sort.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/comb_sort.h"
-
+#include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/radix_sort.h"
 
 typedef struct sortFunc {
     void (*sort)(int *a, size_t n); //указатель на функцию сортировки.

@@ -3,6 +3,7 @@
 
 #include "stdlib.h"
 #include "memory.h"
+#include <limits.h>
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/algorithms/array/array.h"
 
 void radixSort(int *a, size_t size);

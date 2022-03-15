@@ -53,19 +53,6 @@ int countNUnique(long long *a, int n) {
     return count;
 }
 
-void insertionSort(int *a, const size_t size) {
-    for (size_t i = 1; i < size; i++) {
-        int t = a[i];
-        int j = i;
-
-        while (j > 0 && a[j - 1] > t) {
-            a[j] = a[j - 1];
-            j--;
-        }
-        a[j] = t;
-    }
-}
-
 void inputArray_(int *const a, const size_t n) {
     for (size_t i = 0; i < n; i++)
         scanf("%d", &a[i]);
@@ -410,6 +397,16 @@ long long getSum(const int *a, const size_t n) {
     }
 
     return sum;
+}
+
+void getPrefixSums(int *a, size_t size) {
+    int prev = a[0];
+    *a = 0;
+    for (int i = 1; i < size; i++) {
+        int t = a[i];
+        a[i] = prev + a[i - 1];
+        prev = t;
+    }
 }
 
 float getDistance(int *a, int n) {
