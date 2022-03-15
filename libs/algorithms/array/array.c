@@ -224,7 +224,7 @@ int getPositionithGivenValue(const int *a, const size_t n, const int x) {
     return i == n ? -1 : i;
 }
 
-int findFirsNegativeIndex(const int *a, const size_t n) {
+int findFirstNegativeIndex(const int *a, const size_t n) {
     int i = 0;
     while (i < n && a[i] >= 0)
         i++;
@@ -281,7 +281,7 @@ void reverseArray(int *a, size_t n) {
         swap(&a[i], &a[n - i - 1]);
 }
 
-int isPalindrom(const int *a, const size_t n) {
+int isPalindrome(const int *a, const size_t n) {
     size_t halfSize = n / 2;
     for (size_t i = 0; i < halfSize; i++)
         if (a[i] != a[n - i - 1])

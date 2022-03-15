@@ -46,7 +46,7 @@ void deleteIf_(int *a, size_t *n, int (*deletePredicate )(int));
 
 int getPositionithGivenValue(const int *a, const size_t n, const int x);
 
-int findFirsNegativeIndex(const int *a, const size_t n);
+int findFirstNegativeIndex(const int *a, const size_t n);
 
 int findIndexIf(const int *a, const size_t n, int (*f)(int));
 
@@ -62,7 +62,7 @@ void swap(int *a, int *b);
 
 void reverseArray(int *a, size_t n);
 
-int isPalindrom(const int *a, const size_t n);
+int isPalindrome(const int *a, const size_t n);
 
 void removeAllOddElements(int *a, size_t *n);
 
