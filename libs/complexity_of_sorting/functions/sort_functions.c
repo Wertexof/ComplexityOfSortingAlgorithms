@@ -52,7 +52,9 @@ void timeExperiment() {
             {combSort, "combSort"},
             {insertionSort, "insertionSort"},
             {shellSort, "shellSort"},
-            {radixSort, "radixSort"}
+            {radixSort, "radixSort"},
+            {mergeSort, "mergeSort"},
+            {quickSort, "quickSort"}
     };
 
     const unsigned FUNCS_N = ARRAY_SIZE(sortFuncs);

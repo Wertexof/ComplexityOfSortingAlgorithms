@@ -16,6 +16,8 @@
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/shell_sort.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/comb_sort.h"
 #include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/radix_sort.h"
+#include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/merge_sort.h"
+#include "C:/Users/perso/CLionProjects/sorts_project/libs/complexity_of_sorting/sorts/quick_sort.h"
 
 typedef struct sortFunc {
     void (*sort)(int *a, size_t n); //указатель на функцию сортировки.
